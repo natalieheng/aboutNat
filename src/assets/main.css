@@ -1,0 +1,29 @@
+@import 'base.css';
+
+#app {
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+* {
+    /* Halyard font  */
+    font-family: 'Halyard Display', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* Disable overscroll */
+body {
+    overscroll-behavior-y: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

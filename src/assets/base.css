@@ -1,0 +1,59 @@
+/* Colors to be used */
+:root {
+    --color-white: rgb(255, 253, 250); /* Replace with your primary color */
+    --color-beige: rgb(213, 210, 205); /* Replace with your secondary color */
+    --color-brown: rgb(156, 139, 126); /* Replace with your accent color */
+    --color-dark-brown: rgb(53, 45, 40); /* Replace with your success color */
+    --color-black: rgb(0, 0, 0); /* Replace with your warning color */
+}
+
+/* Headers */
+.heading-1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 1.25em;
+    letter-spacing: 0.02em;
+}
+
+.heading-2 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 1.25em;
+    letter-spacing: 0.02em;
+}
+
+.heading-3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.25em;
+    letter-spacing: 0.02em;
+}
+
+.heading-4 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 1.25em;
+    letter-spacing: 0.02em;
+}
+
+/* Three different kind of paragraphs */
+.paragraph-1 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+}
+
+.paragraph-2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+}
+
+.paragraph-3 {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+}
