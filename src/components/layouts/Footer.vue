@@ -1,10 +1,10 @@
 <template>
-    <footer class="mt-3 p-2 d-flex flex-column h-100">
+    <footer class="mt-3 p-4 d-flex flex-column h-100">
         <div class="container-xxl">
             <div class="row">
                 <div class="col-2">
                     <div class="row">
-                        <div class="heading-4 pb-3">About Natalie</div>
+                        <div class="heading-4 pb-3">Contact</div>
                         <a class="paragraph-3 color-brown">natalieheng.2020@economics.smu.edu.sg</a>
                     </div>
                 </div>
@@ -34,5 +34,10 @@ export default defineComponent({
 /* Override colour for a with color brown */
 .color-brown {
     color: var(--color-brown);
+}
+
+.container-xxl {
+    max-width: 1800px;
+    height: 20vh;
 }
 </style>

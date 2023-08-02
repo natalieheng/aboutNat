@@ -17,17 +17,17 @@
                 <!-- Contextual links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <router-link class="nav-link" to="/">Home</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/about">About</router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
                 </ul>
                 <ul class="navbar-center mb-lg-0">
-                    <p class="heading-4" href="#">About Natalie</p>
+                    <router-link class="heading-4" to="/">About Natalie</router-link>
                 </ul>
 
                 <!-- Social media links -->
@@ -50,6 +50,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import type router from '../../router';
 
 export default defineComponent({
     name: 'NavigationBar',
@@ -71,12 +72,25 @@ export default defineComponent({
 
 .navbar-center {
     position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
+    left: 49%;
+    transform: translateX(-49%);
 }
 
 .navbar {
     padding: 1rem;
+}
+
+.heading-4 {
+    /* Remove link colours */
+    color: inherit;
+    text-decoration: none;
+}
+
+a.heading-4:hover {
+    color: var(--color-brown);
+}
+
+a.nav-link:hover {
+    color: var(--color-brown);
 }
 </style>
