@@ -36,7 +36,7 @@
 }
 
 #project-background {
-    border-bottom: 10px solid var(--color-brown);
+    border-bottom: 8px solid var(--color-brown);
     padding: 20px;
     height: 60vh;
 }

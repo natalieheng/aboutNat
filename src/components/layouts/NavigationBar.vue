@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid">
             <button
                 class="navbar-toggler"
@@ -77,7 +77,7 @@ export default defineComponent({
 }
 
 .navbar {
-    padding: 1rem;
+    padding: 0.75rem;
 }
 
 .heading-4 {
@@ -92,5 +92,11 @@ a.heading-4:hover {
 
 a.nav-link:hover {
     color: var(--color-brown);
+}
+
+a.router-link-active {
+    color: var(--color-brown);
+    text-underline-offset: 0.25rem;
+    text-decoration: underline;
 }
 </style>
