@@ -1,15 +1,15 @@
 <template>
-    <footer class="mt-3 p-4 d-flex flex-column h-100">
+    <footer class="mt-3 px-4 d-flex flex-column h-100">
         <div class="container-xxl">
             <div class="row">
-                <div class="col-2">
+                <div class="col-sm-2 py-4">
                     <div class="row">
                         <div class="heading-4 pb-3">Contact</div>
                         <a class="paragraph-3 color-brown">natalieheng.2020@economics.smu.edu.sg</a>
                     </div>
                 </div>
                 <div class="col-8"></div>
-                <div class="col-2">
+                <div class="col-sm-2 py-4">
                     <div class="row">
                         <div class="heading-4 pb-3">Socials</div>
                         <a class="paragraph-3 color-brown">Instagram</a>

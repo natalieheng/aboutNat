@@ -35,9 +35,15 @@
 <style scoped>
 #about-background {
     background-color: var(--color-beige);
-    min-height: 100vh;
-    max-height: 100%;
-    padding-top: 100px;
+    min-height: 50rem;
+    max-height: 150rem;
+}
+
+/* When smaller than lg add 100 padding to about-background */
+@media (max-width: 992px) {
+    #about-background {
+        padding-top: 100px;
+    }
 }
 
 img {
