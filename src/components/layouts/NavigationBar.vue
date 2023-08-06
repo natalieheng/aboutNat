@@ -36,11 +36,11 @@
                             <router-link class="nav-link" to="/about">About</router-link>
                         </li>
                         <li class="nav-item" data-bs-dismiss="offcanvas">
-                            <a class="nav-link" href="#">Projects</a>
+                            <router-link class="nav-link" to="/projects">Projects</router-link>
                         </li>
                     </ul>
 
-                    <ul class="navbar-center mb-lg-0 d-sm-none d-md-block">
+                    <ul class="navbar-center mb-lg-0 d-none d-md-block">
                         <router-link class="heading-4" to="/">About Natalie</router-link>
                     </ul>
 
@@ -65,7 +65,6 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import type router from '../../router';
 
 export default defineComponent({
     name: 'NavigationBar',
@@ -89,6 +88,7 @@ export default defineComponent({
     position: absolute;
     left: 49%;
     transform: translateX(-49%);
+    padding-top: 10px;
 }
 
 .navbar {
@@ -117,5 +117,11 @@ a.router-link-active {
     color: var(--color-brown);
     text-underline-offset: 0.25rem;
     text-decoration: underline;
+}
+
+/* heading 4 links do not show any css */
+a.heading-4 {
+    text-decoration: none;
+    color: inherit;
 }
 </style>

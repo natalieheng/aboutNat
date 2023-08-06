@@ -17,13 +17,8 @@
     text-decoration: none;
 }
 
-/* Disable overscroll */
-* {
-    overscroll-behavior-y: none;
-}
-
 html,
 body {
+    overscroll-behavior-y: none;
     max-width: 100%;
-    overflow-x: hidden;
 }

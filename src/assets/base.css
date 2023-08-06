@@ -3,7 +3,7 @@
     --color-white: rgb(255, 253, 250); /* Replace with your primary color */
     --color-beige: rgb(213, 210, 205); /* Replace with your secondary color */
     --color-brown: rgb(156, 139, 126); /* Replace with your accent color */
-    --color-dark-brown: rgb(53, 45, 40); /* Replace with your success color */
+    --color-dark-brown: #352d28; /* Replace with your success color */
     --color-black: rgb(0, 0, 0); /* Replace with your warning color */
 }
 

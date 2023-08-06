@@ -1,8 +1,8 @@
 <template>
-    <div class="about">
+    <main id="about">
         <div class="container-fluid d-flex align-items-center" id="about-background">
             <div class="row">
-                <div class="col-2"></div>
+                <div class="col-lg-2"></div>
                 <div class="col-lg-4 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center">
                     <div class="row">
                         <p class="heading-3 pb-4 col-12">About Me</p>
@@ -29,14 +29,15 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </template>
 
 <style scoped>
 #about-background {
     background-color: var(--color-beige);
-    min-height: 50rem;
+    min-height: 40rem;
     max-height: 150rem;
+    padding-top: 100px;
 }
 
 /* When smaller than lg add 100 padding to about-background */
