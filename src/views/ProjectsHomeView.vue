@@ -4,28 +4,30 @@
             <!-- Featuring projects -->
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-6 py-3 d-flex justify-content-center">
-                        <img
-                            src="@/assets/project-images/cover-1.png"
-                            alt="Project 1"
-                            class="mx-auto d-block"
-                        />
+                    <div class="col-lg-6 py-3 d-flex justify-content-center">
+                        <RouterLink to="/projects/personal-expenses">
+                            <img
+                                src="@/assets/project-images/cover-1.png"
+                                alt="Project 1"
+                                class="mx-auto d-block"
+                            />
+                        </RouterLink>
                     </div>
-                    <div class="col-6 py-3 d-flex justify-content-center">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center">
                         <img
                             src="@/assets/project-images/cover-2.png"
                             alt="About image"
                             class="mx-auto d-block"
                         />
                     </div>
-                    <div class="col-6 py-3 d-flex justify-content-center">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center">
                         <img
                             src="@/assets/project-images/cover-1.png"
                             alt="Project 1"
                             class="mx-auto d-block"
                         />
                     </div>
-                    <div class="col-6 py-3 d-flex justify-content-center">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center">
                         <img
                             src="@/assets/project-images/cover-2.png"
                             alt="About image"
@@ -37,6 +39,18 @@
         </div>
     </main>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+    name: 'ProjectsHomeView',
+    components: {},
+    setup() {
+        return {};
+    },
+});
+</script>
 
 <style scoped>
 #project-background {

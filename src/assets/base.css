@@ -30,7 +30,7 @@
 }
 
 .heading-4 {
-    font-size: 1.0rem;
+    font-size: 1rem;
     font-weight: lighter;
     line-height: 1.25em;
     letter-spacing: 0.02em;
@@ -53,6 +53,13 @@
 
 .paragraph-3 {
     font-size: 0.8rem;
+    font-weight: lighter;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+}
+
+.paragraph-4 {
+    font-size: 0.7rem;
     font-weight: lighter;
     line-height: 1.4em;
     letter-spacing: 0.05em;

@@ -1,11 +1,11 @@
 <template>
-    <main id="about">
-        <div class="container-fluid d-flex align-items-center" id="about-background">
+    <main id="personalExpenses">
+        <div class="container-fluid d-flex align-items-center" id="personal-expenses-background">
             <div class="row">
-                <div class="col-xl-2 col-lg-1"></div>
-                <div class="col-xl-4 col-lg-5 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center ps-4">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center">
                     <div class="row">
-                        <p class="heading-3 pb-4 col-12">About Me</p>
+                        <p class="heading-3 pb-4 col-12">Personal Expenses analysis</p>
                         <p class="paragraph-3 col-12">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi
                             sunt ut, rem atque quod quaerat veniam modi sequi dolor assumenda odit,
@@ -24,16 +24,22 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center">
-                    <img src="@/assets/images/me.jpg" alt="About image" class="mx-auto d-block" />
+                <div class="col-lg-5 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center">
+                    <img
+                        src="@/assets/project-images/cover-1.png"
+                        alt="About image"
+                        class="mx-auto d-block"
+                    />
                 </div>
             </div>
         </div>
     </main>
 </template>
 
+<script setup lang="ts"></script>
+
 <style scoped>
-#about-background {
+#personal-expenses-background {
     background-color: var(--color-beige);
     min-height: 40rem;
     max-height: 150rem;
@@ -50,8 +56,8 @@
 img {
     max-width: 100%;
     height: auto;
-    min-width: 60%;
+    min-width: 50%;
     min-height: 50%;
-    max-width: 65%;
+    max-width: 60%;
 }
 </style>
