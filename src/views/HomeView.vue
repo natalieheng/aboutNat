@@ -62,4 +62,8 @@
     cursor: pointer;
     width: 150px;
 }
+
+.heading-3 {
+    font-weight: lighter;
+}
 </style>

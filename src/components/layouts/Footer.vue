@@ -40,4 +40,8 @@ export default defineComponent({
     max-width: 1800px;
     height: 20vh;
 }
+
+.heading-4 {
+    font-weight: lighter;
+}
 </style>

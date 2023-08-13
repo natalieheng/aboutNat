@@ -5,7 +5,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-4 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center">
                     <div class="row">
-                        <p class="heading-3 pb-4 col-12">Personal Expenses analysis</p>
+                        <p class="heading-3 pb-2 col-12">Personal Expenses analysis</p>
                         <p class="paragraph-3 col-12">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi
                             sunt ut, rem atque quod quaerat veniam modi sequi dolor assumenda odit,
@@ -22,6 +22,16 @@
                             Officiis quidem, excepturi sapiente rem repellat, esse id nobis eius ad
                             ex necessitatibus nulla animi error adipisci?
                         </p>
+
+                        <p class="heading-4 col-12">Languages used :</p>
+                        <div class="col-12 pb-3 paragraph-3">
+                            <span class="badge me-2">Python</span>
+                        </div>
+
+                        <p class="heading-4 col-12">Data visualization tools used :</p>
+                        <div class="col-12 pb-3 paragraph-3">
+                            <span class="badge me-2">Tableau</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-5 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center">
@@ -59,5 +69,11 @@ img {
     min-width: 50%;
     min-height: 50%;
     max-width: 60%;
+}
+
+.badge {
+    background-color: var(--color-brown);
+    font-weight: normal;
+    padding: 10px;
 }
 </style>

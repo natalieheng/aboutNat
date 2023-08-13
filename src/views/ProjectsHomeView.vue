@@ -4,7 +4,7 @@
             <!-- Featuring projects -->
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-lg-6 py-3 d-flex justify-content-center">
+                    <div class="col-lg-6 pb-4 d-flex justify-content-center">
                         <RouterLink to="/projects/personal-expenses">
                             <img
                                 src="@/assets/project-images/cover-1.png"
@@ -13,21 +13,7 @@
                             />
                         </RouterLink>
                     </div>
-                    <div class="col-lg-6 py-3 d-flex justify-content-center">
-                        <img
-                            src="@/assets/project-images/cover-2.png"
-                            alt="About image"
-                            class="mx-auto d-block"
-                        />
-                    </div>
-                    <div class="col-lg-6 py-3 d-flex justify-content-center">
-                        <img
-                            src="@/assets/project-images/cover-1.png"
-                            alt="Project 1"
-                            class="mx-auto d-block"
-                        />
-                    </div>
-                    <div class="col-lg-6 py-3 d-flex justify-content-center">
+                    <div class="col-lg-6 pb-4 d-flex justify-content-center">
                         <img
                             src="@/assets/project-images/cover-2.png"
                             alt="About image"
@@ -55,8 +41,14 @@ export default defineComponent({
 <style scoped>
 #project-background {
     background-color: var(--color-beige);
-    min-height: 70rem;
-    padding-top: 100px;
+    min-height: 40rem;
+    padding-top: 125px;
+}
+
+@media (min-width: 1440) {
+    #project-background {
+        padding-top: 100px;
+    }
 }
 
 img {

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-md fixed-top">
+    <nav :class="'navbar navbar-expand-md fixed-top ' + navBarVisibility">
         <div class="container-fluid">
             <button
                 class="navbar-toggler"
@@ -64,10 +64,44 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { computed, defineComponent, onMounted, reactive, toRef, toRefs } from 'vue';
 
 export default defineComponent({
     name: 'NavigationBar',
+    setup() {
+        const state = reactive({
+            lastScrollPosition: 0,
+            showNavBar: true,
+        });
+        const onScroll = () => {
+            const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+            if (currentScrollPosition < 0) {
+                return;
+            }
+            if (Math.abs(currentScrollPosition - state.lastScrollPosition) < 70) {
+                return;
+            }
+            state.showNavBar = currentScrollPosition < state.lastScrollPosition;
+            state.lastScrollPosition = currentScrollPosition;
+        };
+
+        // If scrolling down, close else open
+        const navBarVisibility = computed(() => {
+            if (state.showNavBar) {
+                return 'scrolled-up';
+            }
+            return 'scrolled-down';
+        });
+
+        onMounted(() => {
+            window.addEventListener('scroll', onScroll);
+        });
+
+        return {
+            ...toRefs(state),
+            navBarVisibility,
+        };
+    },
 });
 </script>
 
@@ -122,6 +156,21 @@ a.router-link-active {
 /* heading 4 links do not show any css */
 a.heading-4 {
     text-decoration: none;
+    font-weight: lighter;
     color: inherit;
+}
+
+.navbar-toggler {
+    box-shadow: none;
+}
+
+/* For navbar scroll */
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
 }
 </style>

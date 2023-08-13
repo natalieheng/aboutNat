@@ -17,13 +17,17 @@ const router = createRouter({
             path: '/projects',
             name: 'projects',
             component: () => import('../views/ProjectsHomeView.vue'),
-                },
+        },
         {
             path: '/projects/personal-expenses',
             name: 'personal-expenses',
             component: () => import('../views/PersonalExpensesView.vue'),
         },
     ],
+    scrollBehavior() {
+        // always scroll to top
+        return { top: 0 };
+    },
 });
 
 export default router;
