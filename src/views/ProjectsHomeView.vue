@@ -14,11 +14,13 @@
                         </RouterLink>
                     </div>
                     <div class="col-lg-6 pb-4 d-flex justify-content-center">
-                        <img
-                            src="@/assets/project-images/cover-2.png"
-                            alt="About image"
-                            class="mx-auto d-block"
-                        />
+                        <RouterLink to="/projects/airfare-analysis">
+                            <img
+                                src="@/assets/project-images/cover-2.png"
+                                alt="About image"
+                                class="mx-auto d-block"
+                            />
+                        </RouterLink>
                     </div>
                 </div>
             </div>

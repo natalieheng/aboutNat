@@ -21,7 +21,12 @@ const router = createRouter({
         {
             path: '/projects/personal-expenses',
             name: 'personal-expenses',
-            component: () => import('../views/PersonalExpensesView.vue'),
+            component: () => import('../views/projects/PersonalExpensesView.vue'),
+        },
+        {
+            path: '/projects/airfare-analysis',
+            name: 'airfare-analysis',
+            component: () => import('../views/projects/AirfareAnalysisView.vue'),
         },
     ],
     scrollBehavior() {

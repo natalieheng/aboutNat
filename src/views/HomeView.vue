@@ -14,9 +14,12 @@
                 <div class="col-4"></div>
                 <div class="col-4 d-flex justify-content-center">
                     <p class="paragraph-3 text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi sunt
-                        ut, rem atque quod quaerat veniam modi sequi dolor assumenda odit, tempora
-                        nisi. Sed ad quibusdam earum veniam? Quo!
+                        Hi! I am Natalie, a final year student in SMU, eagerly seeking opportunities
+                        to apply my analytical skills and classroom knowledge to real-world
+                        projects. Through my coursework and dedication, I've developed a strong
+                        foundation in data analysis techniques, and I'm excited to contribute to
+                        organizations looking to harness the power of data-driven insights. You can
+                        find out more about my background and skills below!
                     </p>
                 </div>
                 <div class="col-4"></div>
