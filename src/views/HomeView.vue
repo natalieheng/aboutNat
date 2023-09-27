@@ -11,8 +11,8 @@
                 <div class="col-12 pb-4 d-flex justify-content-center">
                     <p class="heading-3">Aspiring Data Analyst</p>
                 </div>
-                <div class="col-4"></div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-lg-4 col-2"></div>
+                <div class="col-lg-4 col-8 d-flex justify-content-center">
                     <p class="paragraph-3 text-center">
                         Hi! I am Natalie, a final year student in SMU, eagerly seeking opportunities
                         to apply my analytical skills and classroom knowledge to real-world
@@ -22,7 +22,7 @@
                         find out more about my background and skills below!
                     </p>
                 </div>
-                <div class="col-4"></div>
+                <div class="col-lg-4 col-2"></div>
                 <!-- Learn more button to link to about page -->
                 <div class="col-12 pt-4 d-flex justify-content-center">
                     <router-link to="/about">
@@ -43,7 +43,7 @@
     background-image: url('@/assets/images/header-image.jpg');
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 85vh;
 }
 
 #project-background {

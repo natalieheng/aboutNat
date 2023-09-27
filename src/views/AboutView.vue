@@ -2,9 +2,8 @@
     <main id="about">
         <div class="container-fluid d-flex align-items-center" id="about-background">
             <div class="row">
-                <div class="col-xl-2 col-lg-0"></div>
                 <div
-                    class="col-xl-4 col-lg-6 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center ps-4"
+                    class="col-xl-6 col-lg-6 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center write-up"
                 >
                     <div class="row">
                         <p class="heading-3 pb-2 col-12">About Me</p>
@@ -28,21 +27,21 @@
                         </p>
                         <p class="heading-4 col-12">Technical skills :</p>
                         <div class="col-12 pb-3 paragraph-3">
-                            <span class="badge me-2">Python</span>
-                            <span class="badge mx-2">Java</span>
-                            <span class="badge mx-2">R Programming</span>
-                            <span class="badge mx-2">MySQL</span>
-                            <span class="badge mx-2">Excel</span>
+                            <span class="badge ms-0">Python</span>
+                            <span class="badge">Java</span>
+                            <span class="badge">R Programming</span>
+                            <span class="badge">MySQL</span>
+                            <span class="badge">Excel</span>
                         </div>
 
                         <p class="heading-4 col-12">Data visualization tools :</p>
                         <div class="col-12 pb-3 paragraph-3">
-                            <span class="badge me-2">Tableau</span>
+                            <span class="badge ms-0">Tableau</span>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="col-xl-5 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center"
+                    class="col-xl-6 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center"
                 >
                     <img src="@/assets/images/me.jpg" alt="About image" class="mx-auto d-block" />
                 </div>
@@ -57,7 +56,7 @@
     background-color: var(--color-beige);
     min-height: 40rem;
     max-height: 150rem;
-    padding-top: 100px;
+    padding-top: 6.5rem;
 }
 
 /* When larger than xl add 100 padding to about-background */
@@ -67,10 +66,16 @@
     }
 }
 /* When smaller than md, img max width should be 40 */
-/* When smaller than md, img max width should be 40 */
 @media (max-width: 1000px) {
     img {
         max-width: 40%;
+    }
+}
+
+/* When bigger than md, write up's padding should be increased to 7.5rem */
+@media (min-width: 1000px) {
+    div .write-up {
+        padding-left: 7.5rem;
     }
 }
 
@@ -86,5 +91,10 @@ img {
     background-color: var(--color-brown);
     font-weight: normal;
     padding: 10px;
+    margin: 0.5rem;
+}
+
+.write-up {
+    padding-left: 2.5rem;
 }
 </style>

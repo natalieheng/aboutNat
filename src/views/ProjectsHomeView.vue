@@ -44,7 +44,7 @@ export default defineComponent({
 #project-background {
     background-color: var(--color-beige);
     min-height: 40rem;
-    padding-top: 125px;
+    padding-top: 6.5rem;
 }
 
 @media (min-width: 1440) {
