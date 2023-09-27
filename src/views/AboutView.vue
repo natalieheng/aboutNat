@@ -91,7 +91,7 @@ img {
     background-color: var(--color-brown);
     font-weight: normal;
     padding: 10px;
-    margin: 0.5rem;
+    margin: 0.25rem 0.5rem;
 }
 
 .write-up {

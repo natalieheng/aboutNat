@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div
-                            class="col-xl-6 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center py-2"
+                            class="col-xl-6 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center"
                         >
                             <img
                                 src="@/assets/project-images/cover-1.png"
@@ -56,14 +56,24 @@
                 </div>
                 <!-- Previous and Next project -->
                 <div class="col-12">
-
+                    <!-- Left button -->
+                    <CustomPagination
+                        :prev-link="prevLink"
+                        :next-link="nextLink"
+                        prev-text="View all"
+                        next-text="Next"
+                    />
                 </div>
             </div>
         </div>
     </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CustomPagination from '@/components/ui/CustomPagination.vue';
+const prevLink = '/projects';
+const nextLink = '/projects/airfare-analysis';
+</script>
 
 <style scoped>
 #personal-expenses-background {
@@ -99,7 +109,8 @@ img {
     background-color: var(--color-brown);
     font-weight: normal;
     padding: 10px;
-    margin: 0.5rem;
+    /* 0.25 for top and bottom 0.5 for left and right */
+    margin: 0.25rem 0.5rem;
 }
 
 /* When bigger than md, write up's padding should be increased to 7.5rem */
@@ -107,10 +118,13 @@ img {
     div .write-up {
         padding-left: 7.5rem;
     }
+    .row .custom-pagination {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
 }
 
 .write-up {
     padding-left: 2.5rem;
 }
-
 </style>

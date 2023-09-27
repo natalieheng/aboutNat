@@ -55,12 +55,27 @@
                         </div>
                     </div>
                 </div>
+                <!-- Previous and Next project -->
+                <div class="col-12">
+                    <!-- Left button -->
+                    <CustomPagination
+                        :prev-link="prevLink"
+                        :next-link="nextLink"
+                        prev-text="Previous"
+                        next-text="Back to all"
+                    />
+                </div>
             </div>
         </div>
     </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CustomPagination from '@/components/ui/CustomPagination.vue';
+
+const prevLink = '/projects/personal-expenses';
+const nextLink = '/projects';
+</script>
 
 <style scoped>
 #airfare-analysis-background {
@@ -96,7 +111,7 @@ img {
     background-color: var(--color-brown);
     font-weight: normal;
     padding: 10px;
-    margin: 0.5rem;
+    margin: 0.25rem 0.5rem;
 }
 
 @media (min-width: 1000px) {
