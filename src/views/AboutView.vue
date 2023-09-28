@@ -97,4 +97,6 @@ img {
 .write-up {
     padding-left: 2.5rem;
 }
+
+
 </style>

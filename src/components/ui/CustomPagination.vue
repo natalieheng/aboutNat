@@ -17,35 +17,17 @@
     </div>
 </template>
 
-<script>
-export default {
-    props: {
-        prevLink: {
-            type: String,
-            required: true,
-        },
-        nextLink: {
-            type: String,
-            required: true,
-        },
-        prevText: {
-            type: String,
-            default: 'Previous',
-        },
-        nextText: {
-            type: String,
-            default: 'Next',
-        },
-        prevDisabled: {
-            type: Boolean,
-            default: true,
-        },
-        nextDisabled: {
-            type: Boolean,
-            default: true,
-        },
-    },
-};
+<script setup lang="ts">
+import { defineProps } from 'vue';
+
+const props = defineProps<{
+    prevLink: string;
+    nextLink: string;
+    prevText?: string;
+    nextText?: string;
+    prevDisabled?: boolean;
+    nextDisabled?: boolean;
+}>();
 </script>
 
 <style scoped>

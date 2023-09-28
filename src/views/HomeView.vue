@@ -26,15 +26,38 @@
                 <!-- Learn more button to link to about page -->
                 <div class="col-12 pt-4 d-flex justify-content-center">
                     <router-link to="/about">
-                        <button class="button-1 paragraph-3">Learn more</button>
+                        <button class="button-1 paragraph-3">About me</button>
                     </router-link>
                 </div>
             </div>
         </div>
         <!-- Projects -->
-        <div class="container-fluid p-0 d-flex" id="project-background"></div>
+        <div class="container-fluid p-0" id="project-background">
+            <p class="heading-4 past-projects">Past projects:</p>
+            <!-- Links to past projects -->
+            <!-- <router-link to="/" tag="img" src="https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg"></router-link> -->
 
-        <div></div>
+            <div class="row past-projects">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <RouterLink to="/projects/personal-expenses" class="d-inline">
+                        <img
+                            src="@/assets/project-images/cover-1.png"
+                            alt="Project 1"
+                            class="d-inline"
+                        />
+                    </RouterLink>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <RouterLink to="/projects/airfare-analysis" class="d-inline">
+                        <img
+                            src="@/assets/project-images/cover-2.png"
+                            alt="Project 2"
+                            class="d-inline"
+                        />
+                    </RouterLink>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -49,7 +72,8 @@
 #project-background {
     border-bottom: 8px solid var(--color-brown);
     padding: 20px;
-    height: 60vh;
+    height: 22.5rem;
+    margin-top: 1.5rem;
 }
 
 .paragraph-1 {
@@ -66,7 +90,21 @@
     width: 150px;
 }
 
-.heading-3 {
+.heading-3,
+.heading-4 {
     font-weight: lighter;
+}
+
+.past-projects {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+img {
+    height: auto;
+    min-width: 80%;
+    max-width: 100%;
+    min-height: 60%;
+    max-width: 60%;
 }
 </style>

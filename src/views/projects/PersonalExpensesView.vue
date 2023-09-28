@@ -32,6 +32,7 @@
                                     spending as I would know which categories I can save more in.
                                     Lastly, I worked on a simple dashboard to show my findings.
                                 </p>
+                                <p class="paragraph-3 col-12">Github repository:</p>
                                 <p class="heading-4 col-12">Languages used :</p>
                                 <div class="col-12 pb-3 paragraph-3">
                                     <span class="badge ms-0">Python</span>

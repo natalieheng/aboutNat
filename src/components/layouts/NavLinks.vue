@@ -29,6 +29,9 @@
         <li class="nav-item" data-bs-dismiss="offcanvas">
             <a class="nav-link" href="#"><i class="bi bi-linkedin"></i> </a>
         </li>
+        <li class="nav-item" data-bs-dismiss="offcanvas">
+            <a class="nav-link" href="#"><i class="bi bi-github"></i> </a>
+        </li>
     </ul>
 </template>
 
