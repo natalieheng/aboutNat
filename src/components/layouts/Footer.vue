@@ -5,19 +5,28 @@
                 <div class="col-sm-2 py-4">
                     <div class="row">
                         <div class="heading-4 pb-3">Contact</div>
-                        <a class="paragraph-3 color-brown">natalieheng.2020@economics.smu.edu.sg</a>
+                        <a
+                            class="paragraph-3 color-brown"
+                            href="mailto:natalieheng.2020@economics.smu.edu.sg"
+                            target="_blank"
+                            >natalieheng.2020@economics.smu.edu.sg</a
+                        >
                     </div>
                 </div>
                 <div class="col-8"></div>
                 <div class="col-sm-2 py-4">
                     <div class="row">
                         <div class="heading-4 pb-3">Socials</div>
-                        <a class="paragraph-3 color-brown" href="https://github.com/natalieheng"
+                        <a
+                            class="paragraph-3 color-brown"
+                            href="https://github.com/natalieheng"
+                            target="_blank"
                             >GitHub</a
                         >
                         <a
                             class="paragraph-3 color-brown mt-1"
                             href="https://linkedin.com/in/natalie-heng-shu-hui"
+                            target="_blank"
                             >LinkedIn</a
                         >
                     </div>

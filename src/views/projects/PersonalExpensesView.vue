@@ -37,6 +37,7 @@
                                     <a
                                         class="paragraph-3"
                                         href="https://github.com/natalieheng/Project-1---Purchases-and-Transaction"
+                                        target="_blank"
                                         >Link</a
                                     >
                                 </p>

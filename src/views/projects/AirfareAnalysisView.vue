@@ -38,6 +38,7 @@
                                     <a
                                         class="paragraph-3"
                                         href="https://github.com/natalieheng/Project-2-Airline-Flight-Fares"
+                                        target="_blank"
                                         >Link</a
                                     >
                                 </p>
