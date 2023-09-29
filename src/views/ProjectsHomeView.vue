@@ -4,21 +4,21 @@
             <!-- Featuring projects -->
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-lg-6 pb-4 d-flex justify-content-center">
-                        <RouterLink to="/projects/personal-expenses">
+                    <div class="col-lg-6 pb-4 text-center">
+                        <RouterLink to="/projects/personal-expenses" class="d-inline">
                             <img
                                 src="@/assets/project-images/cover-1.png"
                                 alt="Project 1"
-                                class="mx-auto d-block"
+                                class="d-inline"
                             />
                         </RouterLink>
                     </div>
-                    <div class="col-lg-6 pb-4 d-flex justify-content-center">
-                        <RouterLink to="/projects/airfare-analysis">
+                    <div class="col-lg-6 pb-4 text-center">
+                        <RouterLink to="/projects/airfare-analysis" class="d-inline">
                             <img
                                 src="@/assets/project-images/cover-2.png"
                                 alt="About image"
-                                class="mx-auto d-block"
+                                class="d-inline"
                             />
                         </RouterLink>
                     </div>

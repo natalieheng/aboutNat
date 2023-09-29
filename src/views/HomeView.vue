@@ -35,10 +35,8 @@
         <div class="container-fluid p-0" id="project-background">
             <p class="heading-4 past-projects">Past projects:</p>
             <!-- Links to past projects -->
-            <!-- <router-link to="/" tag="img" src="https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg"></router-link> -->
-
-            <div class="row past-projects">
-                <div class="col-lg-3 col-md-4 col-6">
+            <div class="row past-projects pe-2">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12">
                     <RouterLink to="/projects/personal-expenses" class="d-inline">
                         <img
                             src="@/assets/project-images/cover-1.png"
@@ -47,7 +45,7 @@
                         />
                     </RouterLink>
                 </div>
-                <div class="col-lg-3 col-md-4 col-6">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-12 pe-2">
                     <RouterLink to="/projects/airfare-analysis" class="d-inline">
                         <img
                             src="@/assets/project-images/cover-2.png"
@@ -72,7 +70,6 @@
 #project-background {
     border-bottom: 8px solid var(--color-brown);
     padding: 20px;
-    height: 22.5rem;
     margin-top: 1.5rem;
 }
 
@@ -101,10 +98,8 @@
 }
 
 img {
-    height: auto;
-    min-width: 80%;
-    max-width: 100%;
-    min-height: 60%;
-    max-width: 60%;
+    height: 20rem;
+    width: auto;
+    padding-bottom: 1.5rem;
 }
 </style>

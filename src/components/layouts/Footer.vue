@@ -12,9 +12,14 @@
                 <div class="col-sm-2 py-4">
                     <div class="row">
                         <div class="heading-4 pb-3">Socials</div>
-                        <a class="paragraph-3 color-brown">Instagram</a>
-                        <a class="paragraph-3 color-brown mt-1">Telegram</a>
-                        <a class="paragraph-3 color-brown mt-1">LinkedIn</a>
+                        <a class="paragraph-3 color-brown" href="https://github.com/natalieheng"
+                            >GitHub</a
+                        >
+                        <a
+                            class="paragraph-3 color-brown mt-1"
+                            href="https://linkedin.com/in/natalie-heng-shu-hui"
+                            >LinkedIn</a
+                        >
                     </div>
                 </div>
             </div>

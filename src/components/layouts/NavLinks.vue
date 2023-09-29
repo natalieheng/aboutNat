@@ -21,16 +21,19 @@
     <!-- At the end -->
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link" href="#"><i class="bi bi-instagram"></i> </a>
+            <a class="nav-link" href="mailto:nataliehengsh@gmail.com"
+                ><i class="bi bi-envelope"></i>
+            </a>
         </li>
         <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link" href="#"><i class="bi bi-telegram"></i> </a>
+            <a class="nav-link" href="https://linkedin.com/in/natalie-heng-shu-hui"
+                ><i class="bi bi-linkedin"></i>
+            </a>
         </li>
         <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link" href="#"><i class="bi bi-linkedin"></i> </a>
-        </li>
-        <li class="nav-item" data-bs-dismiss="offcanvas">
-            <a class="nav-link" href="#"><i class="bi bi-github"></i> </a>
+            <a class="nav-link" href="https://github.com/natalieheng"
+                ><i class="bi bi-github"></i>
+            </a>
         </li>
     </ul>
 </template>

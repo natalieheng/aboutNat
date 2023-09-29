@@ -33,6 +33,14 @@
                                     to learn and pick up more data cleaning and visualization skills
                                     with this project.
                                 </p>
+                                <p class="paragraph-3 col-12">
+                                    Github repository:
+                                    <a
+                                        class="paragraph-3"
+                                        href="https://github.com/natalieheng/Project-2-Airline-Flight-Fares"
+                                        >Link</a
+                                    >
+                                </p>
                                 <p class="heading-4 col-12">Languages used :</p>
                                 <div class="col-12 pb-3 paragraph-3">
                                     <span class="badge ms-0">Python</span>
