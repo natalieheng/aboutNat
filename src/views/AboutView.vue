@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-xl-6 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center"
+                    class="col-xl-5 col-lg-5 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center"
                 >
                     <img src="@/assets/images/me.jpg" alt="About image" class="mx-auto d-block" />
                 </div>
@@ -97,6 +97,4 @@ img {
 .write-up {
     padding-left: 2.5rem;
 }
-
-
 </style>

@@ -41,6 +41,15 @@
                                         >Link</a
                                     >
                                 </p>
+                                <p class="paragraph-3 col-12">
+                                    Tableau visualization:
+                                    <a
+                                        class="paragraph-3"
+                                        href="https://public.tableau.com/app/profile/natalie.heng/viz/PurchasesandTransactions/Dashboard"
+                                        target="_blank"
+                                        >Link</a
+                                    >
+                                </p>
                                 <p class="heading-4 col-12">Languages used :</p>
                                 <div class="col-12 pb-3 paragraph-3">
                                     <span class="badge ms-0">Python</span>

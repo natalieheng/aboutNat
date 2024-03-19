@@ -7,9 +7,9 @@
                         <div class="heading-4 pb-3">Contact</div>
                         <a
                             class="paragraph-3 color-brown"
-                            href="mailto:natalieheng.2020@economics.smu.edu.sg"
+                            href="mailto:nataliehengsh@gmail.com"
                             target="_blank"
-                            >natalieheng.2020@economics.smu.edu.sg</a
+                            >nataliehengsh@gmail.com</a
                         >
                     </div>
                 </div>
