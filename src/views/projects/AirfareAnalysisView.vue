@@ -5,7 +5,7 @@
                 <div class="col-12">
                     <div class="row">
                         <div
-                            class="col-xl-6 col-lg-6 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center write-up"
+                            class="col-xl-4 col-lg-4 order-lg-1 col-12 order-2 mb-4 d-flex align-items-center write-up"
                         >
                             <div class="row">
                                 <p class="heading-3 pb-2 col-12">Project 2 : Airfare analysis</p>
@@ -64,13 +64,14 @@
                             </div>
                         </div>
                         <div
-                            class="col-xl-6 col-lg-6 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center py-2"
+                            class="col-xl-8 col-lg-8 order-lg-2 col-12 order-1 mb-4 d-flex align-items-center py-2"
                         >
-                            <img
-                                src="@/assets/project-images/cover-2.png"
-                                alt="Personal Expense Project image"
+                            <tableau-viz
+                                id="tableauViz-1"
+                                src="https://public.tableau.com/views/AirlineFlightFares/Airlines?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link"
                                 class="mx-auto d-block"
-                            />
+                            >
+                            </tableau-viz>
                         </div>
                     </div>
                 </div>
