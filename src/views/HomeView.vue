@@ -14,12 +14,10 @@
                 <div class="col-lg-4 col-2"></div>
                 <div class="col-lg-4 col-8 d-flex justify-content-center">
                     <p class="paragraph-3 text-center">
-                        Hi! I am Natalie, a final year student in SMU, eagerly seeking opportunities
-                        to apply my analytical skills and classroom knowledge to real-world
-                        projects. Through my coursework and dedication, I've developed a strong
-                        foundation in data analysis techniques, and I'm excited to contribute to
-                        organizations looking to harness the power of data-driven insights. You can
-                        find out more about my background and skills below!
+                        Hi! I am Natalie, a fresh graduate from SMU majoring in Economics and Data Science and Analytics. I am currently looking for an entry-level position in Analytics and/or Data Science to solve business problems using underlying trends and insights derived from data. Skilled in Data analytics with Microsoft Excel, Python 3 and Tableau.
+
+                        <br><br>You can find out more about my background and skills below or <a href="https://drive.google.com/file/d/1DgIwYI28OGEqfoUBXqhMAlsyO6SCfVG_/view?usp=sharing" target="_blank" class="paragraph-3">here</a>.
+
                     </p>
                 </div>
                 <div class="col-lg-4 col-2"></div>

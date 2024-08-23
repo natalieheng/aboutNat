@@ -8,18 +8,10 @@
                     <div class="row">
                         <p class="heading-3 pb-2 col-12">About Me</p>
                         <p class="paragraph-3 col-12">
-                            Hi there, I am Natalie, an aspiring data analyst. I am currently in my
-                            final year of studies in SMU where i am doing a Bachelors degree in
-                            Economics with a Major in Data Science and Analytics. During my studies,
-                            I have developed a strong interest in data analytics and data science,
-                            specifically how it can be used to help businesses make better
-                            decisions.
+                            Hi there, I am Natalie, an aspiring data analyst. I am currently working as a Data Analyst intern with Welcia-BHG Singapore. I graduated from Singapore Management University with a major in Economics and Data Science and Analytics.
                         </p>
                         <p class="paragraph-3 col-12">
-                            Currently, I am looking for a internship opportunity in the field of
-                            data analytics. I am open to any opportunities that will allow me to
-                            learn and grow as a data analyst. I have attached my resume at the
-                            bottom of this page.
+                            As part of my internship, I am responsible for extracting insights from daily sales data, and identifying customer demographics. Currently, I am analysing the impacts of Welcia's marketing campaigns on their sales.
                         </p>
                         <p class="paragraph-3 col-12">
                             Please feel free to contact me if you have any opportunities or if you
@@ -28,7 +20,6 @@
                         <p class="heading-4 col-12">Technical skills :</p>
                         <div class="col-12 pb-3 paragraph-3">
                             <span class="badge ms-0">Python</span>
-                            <span class="badge">Java</span>
                             <span class="badge">R Programming</span>
                             <span class="badge">MySQL</span>
                             <span class="badge">Excel</span>
@@ -37,6 +28,11 @@
                         <p class="heading-4 col-12">Data visualization tools :</p>
                         <div class="col-12 pb-3 paragraph-3">
                             <span class="badge ms-0">Tableau</span>
+                        </div>
+
+                        <p class="heading-4 col-12">Certifications :</p>
+                        <div class="col-12 pb-3 paragraph-3">
+                            <span class="badge ms-0">Google Data Analytics Professional Certificate</span>
                         </div>
                     </div>
                 </div>
