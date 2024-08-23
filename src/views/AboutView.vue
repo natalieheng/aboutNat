@@ -8,7 +8,7 @@
                     <div class="row">
                         <p class="heading-3 pb-2 col-12">About Me</p>
                         <p class="paragraph-3 col-12">
-                            Hi there, I am Natalie, an aspiring data analyst. I am currently working as a Data Analyst intern with Welcia-BHG Singapore. I graduated from Singapore Management University with a major in Economics and Data Science and Analytics.
+                            Hi there, I am Natalie, an aspiring data analyst. I am currently working as a Data Analyst intern with Welcia-BHG Singapore. I graduated from Singapore Management University with a major in Economics and Data Science & Analytics.
                         </p>
                         <p class="paragraph-3 col-12">
                             As part of my internship, I am responsible for extracting insights from daily sales data, and identifying customer demographics. Currently, I am analysing the impacts of Welcia's marketing campaigns on their sales.
